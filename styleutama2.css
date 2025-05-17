@@ -1,0 +1,48 @@
+#timeawal{
+    position: absolute;
+    top: 94.6%;
+    left: 340px;
+    color: black;
+    font-size: 13px;
+    font-family: 'roboto', sans-serif;
+}
+#timeakhir{
+    position: absolute;
+    top: 94.6%;
+    left: 869px;
+    color: black;
+    font-size: 13px;
+    font-family: 'roboto', sans-serif;
+}
+#timeawal2{
+    position: absolute;
+    top: 70%;
+    left: 992px;
+    color: black;
+    font-size: 11px;
+    font-family: 'roboto', sans-serif;
+}
+#timeakhir2{
+    position: absolute;
+    top: 70%;
+    left: 1216px;
+    color: black;
+    font-size: 10px;
+    font-family: 'roboto', sans-serif;
+}
+@media (hover:none), (max-width: 980px){
+    #timeawal{
+        display: none;
+    }
+    #timeakhir{
+        display: none;
+    }
+    #timeakhir2{
+        display: none;
+    }
+    #timeawal2{
+        top: 1571px;
+        left: 40px;
+        font-size: 27px;
+    }
+}

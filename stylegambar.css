@@ -1,0 +1,364 @@
+#playpause {
+    height: 55px;
+    width: 59px;
+    position: absolute;
+    top: 88%;
+    left: 45%;
+    border: none;
+    background: none;
+    opacity: 1;
+    cursor: pointer;
+    clip-path: circle(37% at 50% 54%);
+}
+
+#playpause2 {
+    height: 45px;
+    width: 49px;
+    position: absolute;
+    top: 357px;
+    left: 1090px;
+    border: none;
+    background: none;
+    opacity: 1;
+    cursor: pointer;
+    clip-path: circle(37% at 50% 54%);
+}
+
+.gambartombolpause {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.pausepy {
+    position: absolute;
+    top: 145px;
+    left: 570px;
+    height: 60px;
+    width: 60px;
+    display: block;
+    opacity: 0;
+    z-index: 14;
+    transition: left 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.fotopy1 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 145px;
+    left: 20px;
+    border-radius: 10%;
+    box-shadow: 0px 0px 5px black;
+}
+
+.fotopy2 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 235px;
+    left: 20px;
+    border-radius: 10%;
+    box-shadow: 0px 0px 5px black;
+}
+
+.fotopy3 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 330px;
+    left: 20px;
+    border-radius: 10%;
+    box-shadow: 0px 0px 5px black;
+}
+
+.fotopy4 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 420px;
+    left: 20px;
+    border-radius: 10%;
+    box-shadow: 0px 0px 5px black;
+}
+
+.fotopy12 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 64px;
+    left: 645px;
+    border-radius: 10%;
+    box-shadow: 0px 0px 5px black;
+    z-index: 14;
+    pointer-events: none;
+}
+
+.fotopy22 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 64px;
+    left: 310px;
+    border-radius: 10%;
+    box-shadow: 0px 0px 5px black;
+    z-index: 14;
+    pointer-events: none;
+}
+
+.fotopy32 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 164px;
+    left: 645px;
+    border-radius: 10%;
+    box-shadow: 0px 0px 5px black;
+    pointer-events: none;
+    z-index: 14;
+}
+
+.fotopy42 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 164px;
+    left: 310px;
+    border-radius: 10%;
+    box-shadow: 0px 0px 5px black;
+    pointer-events: none;
+    z-index: 14;
+}
+
+.gambartombolhome {
+    position: fixed;
+    top: 4%;
+    height: 40px;
+    width: 40px;
+    z-index: 100;
+    box-shadow: 0 0 10px 3px;
+    border-radius: 50%;
+}
+
+.gambartombolcari {
+    position: fixed;
+    top: 14.5%;
+    left: 0.5%;
+    height: 34px;
+    width: 34px;
+    z-index: 100;
+}
+
+.gambartombolplaylist {
+    position: fixed;
+    top: 1.1%;
+    left: 5%;
+    height: 70px;
+    width: 70px;
+    z-index: 100;
+}
+
+.gambartombolvidio {
+    position: fixed;
+    top: 2.5%;
+    left: 11%;
+    height: 55px;
+    width: 55px;
+    z-index: 100;
+}
+
+#fotodefault {
+    height: 270px;
+    width: 270px;
+    position: absolute;
+    top: 40px;
+    left: 985px;
+    border-radius: 10px;
+}
+
+#fotodefaultkecil {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 529px;
+    left: 20px;
+}
+
+#skip {
+    position: absolute;
+    top: 89.5%;
+    left: 646px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+#skip2 {
+    position: absolute;
+    top: 89.5%;
+    left: 513px;
+    height: 50px;
+    width: 50px;
+    transform: scaleX(-1);
+    cursor: pointer;
+}
+
+#skipkecil {
+    position: absolute;
+    top: 363px;
+    left: 1140px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+#skip2kecil {
+    position: absolute;
+    top: 363px;
+    left: 1048px;
+    height: 40px;
+    width: 40px;
+    transform: scaleX(-1);
+    cursor: pointer;
+}
+
+@media (hover : none), (max-width: 980px) {
+    #playpause {
+        height: 140px !important;
+        width: 144px !important;
+        position: absolute !important;
+        top: 1483px !important;
+        left: 700px !important;
+    }
+
+    #playpause2 {
+        display: none !important;
+    }
+
+    .gambartombolhome {
+        position: fixed !important;
+        top: 93% !important;
+        left: 80px !important;
+        height: 93px !important;
+        width: 93px !important;
+    }
+
+    .gambartombolcari {
+        display: inline !important;
+        height: 85px;
+        width: 95px;
+        position: fixed;
+        top: 93.5%;
+        left: 340px;
+        z-index: 3;
+    }
+
+    .gambartombolplaylist {
+        display: inline !important;
+        height: 125px;
+        width: 155px;
+        position: fixed;
+        top: 92.2%;
+        left: 560px;
+        z-index: 3;
+    }
+
+    .gambartombolvidio {
+        display: inline !important;
+        height: 105px;
+        width: 115px;
+        position: fixed;
+        top: 92.9%;
+        left: 830px;
+        z-index: 3;
+    }
+
+    .fotopy1 {
+        display: none;
+    }
+
+    .fotopy2 {
+        display: none;
+    }
+
+    .fotopy3 {
+        display: none;
+    }
+
+    .fotopy4 {
+        display: none;
+    }
+
+    .fotopy12 {
+        position: fixed !important;
+        top: 120px;
+        left: 560px;
+        height: 90px;
+        width: 90px;
+    }
+
+    .fotopy22 {
+        position: fixed !important;
+        top: 120px;
+        left: 87px;
+        height: 90px;
+        width: 90px;
+    }
+
+    .fotopy32 {
+        position: fixed !important;
+        top: 270px;
+        left: 560px;
+        height: 90px;
+        width: 90px;
+    }
+
+    .fotopy42 {
+        position: fixed !important;
+        top: 270px;
+        left: 87px;
+        height: 90px;
+        width: 90px;
+    }
+
+    .pausepy {
+        left: 840px;
+    }
+
+    #skip {
+        position: absolute;
+        top: 1490px;
+        left: 820px;
+        height: 150px;
+        width: 150px;
+        cursor: pointer;
+    }
+
+    #skip2 {
+        position: absolute;
+        top: 1490px;
+        left: 570px;
+        height: 150px;
+        width: 150px;
+    }
+
+    #skipkecil {
+        display: none;
+    }
+
+    #skip2kecil {
+        display: none;
+    }
+
+    #fotodefault {
+        display: none;
+    }
+
+    #fotodefaultkecil {
+        top: 1510px;
+        left: 20px;
+        height: 90px;
+        width: 90px;
+    }
+}

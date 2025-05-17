@@ -1,0 +1,22 @@
+@media ( hover: hover){
+.bodykiri12:hover, .bodykiri22:hover, .bodykiri32:hover, .bodykiri42:hover{
+    background-color: transparent;
+}
+.bodykiri1:hover, .bodykiri2:hover, .bodykiri3:hover, .bodykiri4:hover{
+    opacity: 0.8;
+}
+.fotopy1:hover, .fotopy2:hover, .fotopy3:hover, .fotopy4:hover, .fotopy12:hover, .fotopy22:hover, .fotopy32:hover, .fotopy42:hover{
+    box-shadow: 0px 0px 14px black;
+}
+.gambartombolhome:hover{
+    box-shadow: 0px 0px 23px 3px;
+}
+}
+@media ( hover: none){
+    .gambartombolhome:active{
+    box-shadow: 0 0 10px 10px ;
+    }
+    .bodykiri12:active, .bodykiri22:active, .bodykiri32:active, .bodykiri42:active, .bodykiri52:active, .bodykiri62:active, .bodykiri72:active, .bodykiri82:active, .bodykiri92:active .bodykiri10:active{
+        opacity: 0.8 !important;
+    }
+}
